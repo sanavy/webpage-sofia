@@ -39,6 +39,10 @@ body, html {
   color: white;
 }
 
+.wide-letter{
+  letter-spacing: 7px;
+}
+
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
