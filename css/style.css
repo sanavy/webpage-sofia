@@ -43,6 +43,15 @@ body, html {
   letter-spacing: 7px;
 }
 
+.bgimg {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/grad.png");
+  min-height: 100%;
+}
+
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
