@@ -41,3 +41,6 @@ body, html {
 
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
+
+.w3-bar > .w3-bar-item {color: white;}
+.w3-animate-top > .w3-bar-item {color: #323241;}
