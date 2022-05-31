@@ -1,0 +1,43 @@
+body,h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: #323241;
+}
+
+#title {
+  font-family: 'IBM Plex Mono', monospace !important;
+  font-size: 72px !important;
+  font-weight: bold;
+  color: white;
+}
+
+#text {
+  font-family: 'IBM Plex Mono', monospace !important;
+}
+
+#myNavbar {
+  color: #323241;
+}
+
+body, html {
+  height: 100%;
+  color: #323241;
+  line-height: 1.8;
+}
+
+.gradient{
+  background-image: linear-gradient(to right, #A079B4, #3B4898)
+}
+
+.center-div{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.footer{
+  background-color: #323241;
+  color: white;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
