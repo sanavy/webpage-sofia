@@ -57,3 +57,78 @@ body, html {
 
 .w3-bar > .w3-bar-item {color: white;}
 .w3-animate-top > .w3-bar-item {color: #323241;}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.creativity {
+  background:
+    radial-gradient(white 60%, transparent 61%),
+    conic-gradient(transparent 0deg 288deg, gainsboro 288deg 360deg),
+    conic-gradient(#A079B4 0deg, #3B4898);
+  }
+  
+.communication {
+  background:
+    radial-gradient(white 60%, transparent 61%),
+    conic-gradient(transparent 0deg 270deg, gainsboro 270deg 360deg),
+    conic-gradient(#A079B4 0deg, #3B4898);
+  }
+  
+.responsibility {
+  background:
+    radial-gradient(white 60%, transparent 61%),
+    conic-gradient(transparent 0deg 306deg, gainsboro 306deg 360deg),
+    conic-gradient(#A079B4 0deg, #3B4898);
+  }
+  
+.empathy {
+  background:
+    radial-gradient(white 60%, transparent 61%),
+    conic-gradient(transparent 0deg 324deg, gainsboro 324deg 360deg),
+    conic-gradient(#A079B4 0deg, #3B4898);
+  }
+  
+.common-sense {
+  background:
+    radial-gradient(white 60%, transparent 61%),
+    conic-gradient(transparent 0deg 324deg, gainsboro 324deg 360deg),
+    conic-gradient(#A079B4 0deg, #3B4898);
+  }
+  
+.decision-making {
+  background:
+    radial-gradient(white 60%, transparent 61%),
+    conic-gradient(transparent 0deg 270deg, gainsboro 270deg 360deg),
+    conic-gradient(#A079B4 0deg, #3B4898);
+}
+
+.progress-circle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-top: 10% !important;
+  transition: all 500ms ease-in;
+  will-change: transform;
+}
+
+.progress-text {
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: -40%;
+  letter-spacing: 2px;
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1.5s all ease;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}

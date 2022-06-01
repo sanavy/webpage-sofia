@@ -1,5 +1,11 @@
 // Change style of navbar on scroll
 window.onscroll = function() {myFunction()};
+
+window.addEventListener("scroll", reveal);
+
+// To check the scroll position on page load
+reveal();
+
 function myFunction() {
     var navbar = document.getElementById("myNavbar");
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
@@ -16,5 +22,19 @@ function toggleFunction() {
         x.className += " w3-show";
     } else {
         x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+function reveal() {
+    var reveals = document.querySelectorAll(".reveal");
+    for (var i = 0; i < reveals.length; i++) {
+       var windowHeight = window.innerHeight;
+        var elementTop = reveals[i].getBoundingClientRect().top;
+        var elementVisible = 150;
+        if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("active");
+        } else {
+            reveals[i].classList.remove("active");
+        }
     }
 }
